@@ -32,3 +32,6 @@ finally:
     except:
         pass
     conn.logout()
+
+if __name__ == "__main__":
+    print "test"
